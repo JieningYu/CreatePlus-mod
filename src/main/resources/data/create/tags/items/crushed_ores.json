@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "createplus:crushed_tungsten_ore",
+        "createplus:crushed_iridium_ore",
+        "createplus:crushed_titanium_ore",
+
+        "createplus:crushed_adamantite_ore",
+        "createplus:crushed_aquarium_ore",
+        "createplus:crushed_banglum_ore",
+        "createplus:crushed_carmot_ore",
+        "createplus:crushed_kyber_ore",
+        "createplus:crushed_manganese_ore",
+        "createplus:crushed_midas_gold_ore",
+        "createplus:crushed_mythril_ore",
+        "createplus:crushed_orichalcum_ore",
+        "createplus:crushed_palladium_ore",
+        "createplus:crushed_prometheum_ore",
+        "createplus:crushed_quadrillum_ore",
+        "createplus:crushed_runite_ore",
+        "createplus:crushed_stormyx_ore"
+    ]
+}

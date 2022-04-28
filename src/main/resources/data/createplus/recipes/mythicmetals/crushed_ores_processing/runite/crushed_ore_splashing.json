@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+		}
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createplus:crushed_runite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:runite_nugget",
+      "count": 9
+    },
+    {
+      "item": "minecraft:hanging_roots",
+      "chance": 0.25
+    }
+  ]
+}

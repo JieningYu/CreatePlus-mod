@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+		}
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mythicmetals:manganese_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "createplus:crushed_manganese_ore",
+      "count": 1
+    },
+    {
+      "item": "createplus:crushed_manganese_ore",
+      "chance": 0.75
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 250
+}

@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+		}
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "createplus:crushed_adamantite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:adamantite_nugget",
+      "count": 9
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "chance": 0.25
+    }
+  ]
+}
