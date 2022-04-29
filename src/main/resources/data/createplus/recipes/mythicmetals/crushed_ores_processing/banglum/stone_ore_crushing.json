@@ -23,6 +23,10 @@
       "chance": 0.75
     },
     {
+      "item": "mythicmetals:banglum_chunk",
+      "chance": 0.01
+    },
+    {
       "item": "create:experience_nugget",
       "chance": 0.75
     },

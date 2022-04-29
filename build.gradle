@@ -63,10 +63,6 @@ dependencies {
 	// Quilted Fabric API will automatically pull in the correct QSL version.
 	modImplementation libs.quilted.fabric.api
 
-	modRuntimeOnly("maven.modrinth:lithium:mc1.18.2-0.7.9")
-	runtimeOnly("maven.modrinth:lazydfu:0.1.2")
-
-	modImplementation(include("com.tterrag.registrate:Registrate:MC1.18.2-1.0.x"))
 	modImplementation("com.simibubi:Create:mc1.18.2_v0.4.1+506")
 }
 
