@@ -13,7 +13,7 @@ import org.quiltmc.qsl.resource.loader.api.ResourcePackActivationType;
 public class CreatePlus implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("CreatePlus");
 	public static final String NAMESPACE = "createplus";
-	public static final ResourcePackActivationType PACK_TYPE = ResourcePackActivationType.ALWAYS_ENABLED;
+	public static final ResourcePackActivationType PACK_TYPE = ResourcePackActivationType.DEFAULT_ENABLED;
 
 	@Override
 	public void onInitialize(ModContainer mod) {
