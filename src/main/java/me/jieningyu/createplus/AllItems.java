@@ -29,6 +29,8 @@ public class AllItems {
 	public static Item CRUSHED_QUADRILLUM_ORE = new Item(new Item.Settings().group(Create.BASE_CREATIVE_TAB));
 	public static Item CRUSHED_RUNITE_ORE = new Item(new Item.Settings().group(Create.BASE_CREATIVE_TAB));
 	public static Item CRUSHED_STORMYX_ORE = new Item(new Item.Settings().group(Create.BASE_CREATIVE_TAB));
+	//-Modern blablabla
+	public static Item CRUSHED_ANTIMONY_ORE = new Item(new Item.Settings().group(Create.BASE_CREATIVE_TAB));
 
 
 	//Foodstuff
@@ -56,7 +58,8 @@ public class AllItems {
 		Registry.register(Registry.ITEM, new Identifier("createplus", "crushed_quadrillum_ore"), CRUSHED_QUADRILLUM_ORE);
 		Registry.register(Registry.ITEM, new Identifier("createplus", "crushed_runite_ore"), CRUSHED_RUNITE_ORE);
 		Registry.register(Registry.ITEM, new Identifier("createplus", "crushed_stormyx_ore"), CRUSHED_STORMYX_ORE);
-
+		//-Modern blablabla
+		Registry.register(Registry.ITEM, new Identifier("createplus", "crushed_antimony_ore"), CRUSHED_ANTIMONY_ORE);
 
 		//Foodstuff
 		Registry.register(Registry.ITEM, new Identifier("createplus", "chocolate_glazed_blueberries"), CHOCOLATE_BLUEBERRIES);
