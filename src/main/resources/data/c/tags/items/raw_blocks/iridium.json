@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "#c:iridium_raw_blocks",
+            "required": false
+        },
+        {
+            "id": "#c:raw_iridium_blocks",
+            "required": false
+        },
+        {
+            "id": "#createplus:raw_ore_blocks/iridium",
+            "required": false
+        }
+    ]
+}

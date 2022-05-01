@@ -1,16 +1,16 @@
 {
   "fabric:load_conditions": [
-		{
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "techreborn"
-      ]
-		}
-  ],
+    {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+            "c:raw_blocks/tungsten"
+        ]
+    }
+],
   "type": "create:crushing",
   "ingredients": [
     {
-      "tag": "c:raw_tungsten_blocks"
+      "tag": "c:raw_blocks/tungsten"
     }
   ],
   "results": [
@@ -24,5 +24,5 @@
       "count": 9
     }
   ],
-  "processingTime": 350
+  "processingTime": 400
 }

@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "alloygery:raw_titanium_block",
+            "required": false
+        }
+    ]
+}

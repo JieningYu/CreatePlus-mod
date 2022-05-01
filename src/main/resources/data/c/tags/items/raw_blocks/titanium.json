@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "#c:titanium_raw_blocks",
+            "required": false
+        },
+        {
+            "id": "#c:raw_titanium_blocks",
+            "required": false
+        },
+        {
+            "id": "#createplus:raw_ore_blocks/titanium",
+            "required": false
+        }
+    ]
+}

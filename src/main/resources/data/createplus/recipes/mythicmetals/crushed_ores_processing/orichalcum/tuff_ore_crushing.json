@@ -28,7 +28,7 @@
     },
     {
       "item": "minecraft:tuff",
-      "chance": 0.125
+      "chance": 0.1255
     }
   ],
   "processingTime": 250

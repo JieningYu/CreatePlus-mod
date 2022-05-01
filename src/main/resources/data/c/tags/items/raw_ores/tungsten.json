@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "#c:tungsten_raw_ores",
+            "required": false
+        },
+        {
+            "id": "#c:raw_tungsten_ores",
+            "required": false
+        },
+        {
+            "id": "#createplus:raw_ores/tungsten",
+            "required": false
+        }
+    ]
+}

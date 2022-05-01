@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "#c:tungsten_raw_blocks",
+            "required": false
+        },
+        {
+            "id": "#c:raw_tungsten_blocks",
+            "required": false
+        },
+        {
+            "id": "#createplus:raw_ore_blocks/tungsten",
+            "required": false
+        }
+    ]
+}

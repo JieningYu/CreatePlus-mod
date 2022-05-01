@@ -1,16 +1,16 @@
 {
   "fabric:load_conditions": [
-		{
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "techreborn"
-      ]
-		}
-  ],
+    {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+            "createplus:ores/iridium/stone"
+        ]
+    }
+],
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "techreborn:iridium_ore"
+      "tag": "createplus:ores/iridium/stone"
     }
   ],
   "results": [
@@ -27,8 +27,8 @@
     },
     {
       "item": "minecraft:cobblestone",
-      "chance": 0.12
+      "chance": 0.125
     }
   ],
-  "processingTime": 300
+  "processingTime": 350
 }

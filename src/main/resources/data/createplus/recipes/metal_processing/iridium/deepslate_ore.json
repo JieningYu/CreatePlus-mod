@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+            "createplus:ores/iridium/deepslate"
+        ]
+    }
+],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "createplus:ores/iridium/deepslate"
+    }
+  ],
+  "results": [
+    {
+      "item": "createplus:crushed_iridium_ore",
+      "count": 2
+    },
+    {
+      "item": "createplus:crushed_iridium_ore",
+      "chance": 0.25
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 450
+}

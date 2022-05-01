@@ -1,21 +1,21 @@
 {
   "fabric:load_conditions": [
-		{
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "alloygery"
-      ]
-		}
-  ],
+    {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+            "c:raw_blocks/iridium"
+        ]
+    }
+],
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "alloygery:raw_titanium_block"
+      "tag": "c:raw_blocks/iridium"
     }
   ],
   "results": [
     {
-      "item": "createplus:crushed_titanium_ore",
+      "item": "createplus:crushed_iridium_ore",
       "count": 9
     },
     {
@@ -24,5 +24,5 @@
       "count": 9
     }
   ],
-  "processingTime": 350
+  "processingTime": 400
 }
