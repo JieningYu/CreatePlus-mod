@@ -3,19 +3,19 @@
     {
         "condition": "fabric:item_tags_populated",
         "values": [
-            "c:raw_ores/titanium"
+            "c:raw_ores/tungsten"
         ]
     }
 ],
   "type": "create:crushing",
   "ingredients": [
     {
-      "tag": "c:raw_ores/titanium"
+      "tag": "c:raw_ores/tungsten"
     }
   ],
   "results": [
     {
-      "item": "createplus:crushed_titanium_ore"
+      "item": "createplus:crushed_tungsten_ore"
     },
     {
       "item": "create:experience_nugget",

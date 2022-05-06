@@ -3,19 +3,19 @@
     {
         "condition": "fabric:item_tags_populated",
         "values": [
-            "c:raw_blocks/titanium"
+            "c:raw_blocks/tungsten"
         ]
     }
 ],
   "type": "create:crushing",
   "ingredients": [
     {
-      "tag": "c:raw_blocks/titanium"
+      "tag": "c:raw_blocks/tungsten"
     }
   ],
   "results": [
     {
-      "item": "createplus:crushed_titanium_ore",
+      "item": "createplus:crushed_tungsten_ore",
       "count": 9
     },
     {

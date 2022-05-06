@@ -7,7 +7,7 @@
       ]
 		}
   ],
-  "type": "minecraft:smelting",
+  "type": "minecraft:blasting",
   "ingredient": {
     "item": "createplus:crushed_iridium_ore"
   },
