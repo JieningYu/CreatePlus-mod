@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "#c:antimony_raw_blocks",
+            "required": false
+        },
+        {
+            "id": "#c:raw_antimony_blocks",
+            "required": false
+        },
+        {
+            "id": "#createplus:raw_ore_blocks/antimony",
+            "required": false
+        }
+    ]
+}

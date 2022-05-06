@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "modern_industrialization:antimony_ore",
+            "required": false
+        }
+    ]
+}

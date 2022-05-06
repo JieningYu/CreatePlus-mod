@@ -1,4 +1,6 @@
 {
+  "itemGroup.createplus.item_group": "Create's Compatibility Enchantments",
+
   "item.createplus.chocolate_glazed_blueberries": "Chocolate Glazed Blueberries",
 
   "item.createplus.crushed_iridium_ore": "Crushed Iridium Ore",
@@ -20,5 +22,9 @@
   "item.createplus.crushed_runite_ore": "Crushed Runite Ore",
   "item.createplus.crushed_stormyx_ore": "Crushed Stormyx Ore",
 
-  "item.createplus.crushed_antimony_ore": "Crushed Antimony Ore"
+  "item.createplus.crushed_antimony_ore": "Crushed Antimony Ore",
+  "item.createplus.brass_double_ingot": "Brass Double Ingot",
+  "item.createplus.zinc_double_ingot": "Zinc Double Ingot",
+  "item.createplus.zinc_dust": "Zinc Double Ingot",
+  "item.createplus.brass_dust": "Brass Dust"
 }

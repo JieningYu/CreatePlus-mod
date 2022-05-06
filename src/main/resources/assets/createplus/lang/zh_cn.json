@@ -1,4 +1,6 @@
 {
+  "itemGroup.createplus.item_group": "机械动力丨兼容增强",
+
   "item.createplus.chocolate_glazed_blueberries": "巧克力包层蓝莓",
 
   "item.createplus.crushed_iridium_ore": "粉碎铱矿石",
@@ -20,5 +22,9 @@
   "item.createplus.crushed_runite_ore": "粉碎符石矿石",
   "item.createplus.crushed_stormyx_ore": "粉碎飓霆矿石",
 
-  "item.createplus.crushed_antimony_ore": "粉碎锑矿石"
+  "item.createplus.crushed_antimony_ore": "粉碎锑矿石",
+  "item.createplus.brass_double_ingot": "黄铜双层锭",
+  "item.createplus.zinc_double_ingot": "锌双层锭",
+  "item.createplus.zinc_dust": "锌粉",
+  "item.createplus.brass_dust": "黄铜粉"
 }

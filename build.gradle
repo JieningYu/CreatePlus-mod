@@ -13,40 +13,6 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
-	maven {
-        // Location of the maven that hosts REI files
-        name 'Shedman maven'
-        url 'https://maven.shedaniel.me/'
-    }
-    /*maven {
-        // Location of a maven mirror for JEI files, as a fallback
-        name 'ModMaven'
-        url 'https://modmaven.k-4u.nl'
-    }*/
-    maven {
-        // Location of the maven for vazkii's mods
-        name 'blamejared'
-        url 'https://maven.blamejared.com'
-    }
-    maven { url = "https://api.modrinth.com/maven" }
-    maven { url = "https://mvn.devos.one/releases/" }
-    maven { url = "https://mvn.devos.one/snapshots/" }
-    maven { url = "https://maven.tterrag.com/" }
-    maven { url = "https://jitpack.io/" }
-    maven {
-        url 'https://www.cursemaven.com'
-        content {
-            includeGroup "curse.maven"
-        }
-    }
-    maven {
-        url = "https://maven.jamieswhiteshirt.com/libs-release"
-        content {
-            includeGroup("com.jamieswhiteshirt")
-        }
-    }
-    maven { url = "https://maven.terraformersmc.com/" }
-    maven { url = "https://maven.cafeteria.dev" }
 }
 
 // All the dependencies are declared at gradle/libs.version.toml and referenced with "libs.<id>"
@@ -56,14 +22,13 @@ dependencies {
 	mappings loom.layered {
 		addLayer quiltMappings.mappings("org.quiltmc:quilt-mappings:${libs.versions.quilt.mappings.get()}:v2")
 		// officialMojangMappings() // Uncomment if you want to use Mojang mappings as your primary mappings, falling back on QM for parameters and Javadocs
+
 	}
 	modImplementation libs.quilt.loader
 
 	// QSL is not a complete API; You will need Quilted Fabric API to fill in the gaps.
 	// Quilted Fabric API will automatically pull in the correct QSL version.
 	modImplementation libs.quilted.fabric.api
-
-	modImplementation("com.simibubi:Create:mc1.18.2_v0.4.1+506")
 }
 
 processResources {

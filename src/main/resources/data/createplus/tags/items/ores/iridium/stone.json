@@ -4,6 +4,10 @@
         {
             "id": "techreborn:iridium_ore",
             "required": false
+        },
+        {
+          "id": "modern_industrialization:iridium_ore",
+          "required": false
         }
     ]
 }

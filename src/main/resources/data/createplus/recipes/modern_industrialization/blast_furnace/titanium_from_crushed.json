@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+		}
+  ],
+  "type": "modern_industrialization:blast_furnace",
+  "eu": 128,
+  "duration": 400,
+  "item_inputs": {
+    "item": "createplus:crushed_titanium_ore",
+    "amount": 3
+  },
+  "fluid_inputs": {
+    "fluid": "modern_industrialization:manganese_sulfuric_solution",
+    "amount": 2000
+  },
+  "item_outputs": {
+    "item": "modern_industrialization:titanium_hot_ingot",
+    "amount": 4
+  },
+  "fluid_outputs": {
+    "fluid": "modern_industrialization:manganese_sulfuric_solution",
+    "amount": 1750
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "fabric:load_conditions": [
+    {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+            "createplus:ores/tungsten/deepslate"
+        ]
+    }
+],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "createplus:ores/tungsten/deepslate"
+    }
+  ],
+  "results": [
+    {
+      "item": "createplus:crushed_tungsten_ore",
+      "count": 2
+    },
+    {
+      "item": "createplus:crushed_tungsten_ore",
+      "chance": 0.25
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 450
+}
