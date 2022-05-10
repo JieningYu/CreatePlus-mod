@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+		}
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bcp",
+    "GRc",
+    "bGb"
+  ],
+  "key": {
+    "p": {
+      "tag": "c:plates/brass"
+    },
+    "b": {
+      "item": "modern_industrialization:copper_bolt"
+    },
+    "R": {
+      "item": "modern_industrialization:copper_rod"
+    },
+    "c": {
+      "item": "modern_industrialization:copper_curved_plate"
+    },
+    "G": {
+      "tag": "c:copper_gears"
+    }
+  },
+  "result": {
+    "item": "createplus:brass_drill_head",
+    "count": 1
+  }
+}

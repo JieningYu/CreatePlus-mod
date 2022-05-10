@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:ingots/brass"
+    },
+    {
+      "tag": "c:ingots/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "createplus:brass_double_ingot"
+    }
+  ]
+}

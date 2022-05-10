@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:plates/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "createplus:brass_dust"
+    }
+  ],
+  "processingTime": 350
+}

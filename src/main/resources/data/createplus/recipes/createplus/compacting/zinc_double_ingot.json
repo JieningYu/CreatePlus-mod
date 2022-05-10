@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:ingots/zinc"
+    },
+    {
+      "tag": "c:ingots/zinc"
+    }
+  ],
+  "results": [
+    {
+      "item": "createplus:zinc_double_ingot"
+    }
+  ]
+}

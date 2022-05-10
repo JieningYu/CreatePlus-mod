@@ -1,0 +1,54 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+    }
+  ],
+  "type": "modern_industrialization:quarry",
+  "eu": 4,
+  "duration": 600,
+  "item_inputs": {
+    "item": "createplus:brass_drill",
+    "amount": 1,
+    "probability": 0.025
+  },
+  "item_outputs": [
+    {
+      "item": "create:limestone",
+      "amount": 16
+    },
+    {
+      "item": "create:scoria",
+      "amount": 16,
+      "probability": 0.5
+    },
+    {
+      "item": "create:crimsite",
+      "amount": 8,
+      "probability": 0.15
+    },
+    {
+      "item": "create:veridium",
+      "amount": 8,
+      "probability": 0.15
+    },
+    {
+      "item": "create:ochrum",
+      "amount": 8,
+      "probability": 0.10
+    },
+    {
+      "item": "create:asurine",
+      "amount": 8,
+      "probability": 0.15
+    },
+    {
+      "item": "create:zinc_ore",
+      "amount": 6,
+      "probability": 0.04
+    }
+  ]
+}

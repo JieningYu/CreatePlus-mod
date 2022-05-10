@@ -26,5 +26,8 @@
   "item.createplus.brass_double_ingot": "黄铜双层锭",
   "item.createplus.zinc_double_ingot": "锌双层锭",
   "item.createplus.zinc_dust": "锌粉",
-  "item.createplus.brass_dust": "黄铜粉"
+  "item.createplus.brass_dust": "黄铜粉",
+
+  "item.createplus.brass_drill_head": "黄铜钻头",
+  "item.createplus.brass_drill": "黄铜钻"
 }

@@ -4,6 +4,7 @@
         "createplus:crushed_tungsten_ore",
         "createplus:crushed_iridium_ore",
         "createplus:crushed_titanium_ore",
+        "createplus:crushed_antimony_ore",
 
         {"id":"createplus:crushed_adamantite_ore", "required":false},
         {"id":"createplus:crushed_adamantite_ore", "required":false},

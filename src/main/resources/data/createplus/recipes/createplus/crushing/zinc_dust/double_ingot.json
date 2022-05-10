@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:double_ingots/zinc"
+    }
+  ],
+  "results": [
+    {
+      "item": "createplus:zinc_dust",
+      "count": 2
+    }
+  ],
+  "processingTime": 600
+}

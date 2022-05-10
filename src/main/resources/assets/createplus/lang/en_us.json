@@ -26,5 +26,8 @@
   "item.createplus.brass_double_ingot": "Brass Double Ingot",
   "item.createplus.zinc_double_ingot": "Zinc Double Ingot",
   "item.createplus.zinc_dust": "Zinc Double Ingot",
-  "item.createplus.brass_dust": "Brass Dust"
+  "item.createplus.brass_dust": "Brass Dust",
+
+  "item.createplus.brass_drill_head": "Brass Drill Head",
+  "item.createplus.brass_drill": "Brass Drill"
 }

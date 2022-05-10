@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:double_ingots/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "createplus:brass_dust",
+      "count": 2
+    }
+  ],
+  "processingTime": 600
+}
