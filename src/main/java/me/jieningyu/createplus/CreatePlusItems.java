@@ -6,7 +6,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 
-public class AllItems {
+public class CreatePlusItems {
 	//Crushed Ores
 	public static Item CRUSHED_IRIDIUM_ORE = new Item(new Item.Settings().group(CreatePlus.ITEM_GROUP));
 	public static Item CRUSHED_TUNGSTEN_ORE = new Item(new Item.Settings().group(CreatePlus.ITEM_GROUP));

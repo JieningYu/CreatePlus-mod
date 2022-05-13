@@ -22,13 +22,14 @@ public class CreatePlus implements ModInitializer {
 	public static final String NAMESPACE = "createplus";
 	public static final ResourcePackActivationType PACK_TYPE = ResourcePackActivationType.DEFAULT_ENABLED;
 
-	public static ItemGroup ITEM_GROUP = QuiltItemGroup.builder(new Identifier(NAMESPACE, "item_group")).icon(() -> new ItemStack(AllItems.CHOCOLATE_BLUEBERRIES)).build();
+	public static ItemGroup ITEM_GROUP = QuiltItemGroup.builder(new Identifier(NAMESPACE, "item_group")).icon(() -> new ItemStack(CreatePlusItems.CHOCOLATE_BLUEBERRIES)).build();
 
 	@Override
 	public void onInitialize(ModContainer mod) {
 		ResourceLoader.registerBuiltinResourcePack(new Identifier(NAMESPACE, "createplus-core"), PACK_TYPE);
-		AllItems.register();
+		CreatePlusItems.register();
 		if (QuiltLoader.isModLoaded("mythicmetals")) {MythicMetals.register();}
 		if (QuiltLoader.isModLoaded("modern_industrialization")) {MIndustrialization.register();}
+		Uniergy.init();
 	}
 }
