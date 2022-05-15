@@ -6,6 +6,7 @@
   "item.createplus.crushed_iridium_ore": "粉碎铱矿石",
   "item.createplus.crushed_tungsten_ore": "粉碎钨矿石",
   "item.createplus.crushed_titanium_ore": "粉碎钛矿石",
+  "item.createplus.crushed_antimony_ore": "粉碎锑矿石",
 
   "item.createplus.crushed_adamantite_ore": "粉碎精金矿石",
   "item.createplus.crushed_aquarium_ore": "粉碎激水矿石",
@@ -22,12 +23,13 @@
   "item.createplus.crushed_runite_ore": "粉碎符石矿石",
   "item.createplus.crushed_stormyx_ore": "粉碎飓霆矿石",
 
-  "item.createplus.crushed_antimony_ore": "粉碎锑矿石",
   "item.createplus.brass_double_ingot": "黄铜双层锭",
   "item.createplus.zinc_double_ingot": "锌双层锭",
   "item.createplus.zinc_dust": "锌粉",
   "item.createplus.brass_dust": "黄铜粉",
 
   "item.createplus.brass_drill_head": "黄铜钻头",
-  "item.createplus.brass_drill": "黄铜钻"
+  "item.createplus.brass_drill": "黄铜钻",
+
+  "item.createplus.goggles": "工程师悬浮镜"
 }

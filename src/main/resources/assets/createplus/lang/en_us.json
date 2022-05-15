@@ -6,6 +6,7 @@
   "item.createplus.crushed_iridium_ore": "Crushed Iridium Ore",
   "item.createplus.crushed_tungsten_ore": "Crushed Tungsten Ore",
   "item.createplus.crushed_titanium_ore": "Crushed Titanium Ore",
+  "item.createplus.crushed_antimony_ore": "Crushed Antimony Ore",
 
   "item.createplus.crushed_adamantite_ore": "Crushed Adamantite Ore",
   "item.createplus.crushed_aquarium_ore": "Crushed Aquarium Ore",
@@ -22,12 +23,13 @@
   "item.createplus.crushed_runite_ore": "Crushed Runite Ore",
   "item.createplus.crushed_stormyx_ore": "Crushed Stormyx Ore",
 
-  "item.createplus.crushed_antimony_ore": "Crushed Antimony Ore",
   "item.createplus.brass_double_ingot": "Brass Double Ingot",
   "item.createplus.zinc_double_ingot": "Zinc Double Ingot",
   "item.createplus.zinc_dust": "Zinc Double Ingot",
   "item.createplus.brass_dust": "Brass Dust",
 
   "item.createplus.brass_drill_head": "Brass Drill Head",
-  "item.createplus.brass_drill": "Brass Drill"
+  "item.createplus.brass_drill": "Brass Drill",
+
+  "item.createplus.goggles": "Engineer's Floating Goggles"
 }

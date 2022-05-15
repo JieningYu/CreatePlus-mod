@@ -14,13 +14,43 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 	maven {
-		name = "TerraformersMC"
-		url = "https://maven.terraformersmc.com/"
-	}
-	maven {
 		name = "Ladysnake Libs"
 		url = "https://ladysnake.jfrog.io/artifactory/mods"
 	}
+	maven {
+        // Location of the maven that hosts REI files
+        name 'Shedman maven'
+        url 'https://maven.shedaniel.me/'
+    }
+    /*maven {
+        // Location of a maven mirror for JEI files, as a fallback
+        name 'ModMaven'
+        url 'https://modmaven.k-4u.nl'
+    }*/
+    maven {
+        // Location of the maven for vazkii's mods
+        name 'blamejared'
+        url 'https://maven.blamejared.com'
+    }
+    maven { url = "https://api.modrinth.com/maven" }
+    maven { url = "https://mvn.devos.one/releases/" }
+    maven { url = "https://mvn.devos.one/snapshots/" }
+    maven { url = "https://maven.tterrag.com/" }
+    maven { url = "https://jitpack.io/" }
+    maven {
+        url 'https://www.cursemaven.com'
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+    maven {
+        url = "https://maven.jamieswhiteshirt.com/libs-release"
+        content {
+            includeGroup("com.jamieswhiteshirt")
+        }
+    }
+    maven { url = "https://maven.terraformersmc.com/" }
+    maven { url = "https://maven.cafeteria.dev" }
 }
 
 // All the dependencies are declared at gradle/libs.version.toml and referenced with "libs.<id>"
@@ -38,6 +68,7 @@ dependencies {
 	modImplementation libs.quilted.fabric.api
 
 	modImplementation "dev.emi:trinkets:3.3.0"
+	modImplementation("com.simibubi:Create:mc1.18.2_v0.4.1+554")
 }
 
 processResources {

@@ -15,6 +15,7 @@ import org.quiltmc.qsl.item.group.api.QuiltItemGroup;
 
 import org.quiltmc.loader.api.QuiltLoader;
 import me.jieningyu.createplus.compat.MythicMetals;
+import me.jieningyu.createplus.compat.Trinkets;
 import me.jieningyu.createplus.compat.MIndustrialization;
 
 public class CreatePlus implements ModInitializer {
@@ -30,6 +31,6 @@ public class CreatePlus implements ModInitializer {
 		CreatePlusItems.register();
 		if (QuiltLoader.isModLoaded("mythicmetals")) {MythicMetals.register();}
 		if (QuiltLoader.isModLoaded("modern_industrialization")) {MIndustrialization.register();}
-		Uniergy.init();
+		if (QuiltLoader.isModLoaded("trinkets")) {Trinkets.init();}
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"createplus:goggles", "required": false}
+  ]
+}
