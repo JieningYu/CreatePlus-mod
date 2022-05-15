@@ -1,16 +1,16 @@
 {
   "fabric:load_conditions": [
-		{
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "promenade"
-      ]
-		}
+    {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+            "c:blueberries"
+        ]
+    }
   ],
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "promenade:blueberries"
+      "tag": "c:blueberries"
     },
     {
       "fluid": "create:chocolate",

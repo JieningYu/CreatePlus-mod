@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+      {
+        "id": "byg:blueberries",
+        "required": false
+      },
+      {
+        "id": "promenade:blueberries",
+        "required": false
+      },
+      {
+        "id": "the_aether:blue_berry",
+        "required": false
+      }
+    ]
+}
