@@ -10,7 +10,7 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.Optional;
 import com.simibubi.create.content.contraptions.goggles.GogglesItem;
-import org.quiltmc.loader.api.QuiltLoader;
+import net.fabricmc.loader.api.FabricLoader;
 
 
 public class Trinkets {
@@ -19,7 +19,7 @@ public class Trinkets {
 	static{GogglesItem.addIsWearingPredicate(player -> isTrinketEquipped(GOGGLES, player));}
 
 	public static boolean isTrinketEquipped(Item item, LivingEntity player){
-		if (!QuiltLoader.isModLoaded("trinkets")) {return false;}
+		if (!FabricLoader.getInstance().isModLoaded("trinkets")) {return false;}
 		Optional<TrinketComponent> trinket = TrinketsApi.getTrinketComponent(player);
 		if (trinket.get().isEquipped(item)) {return true;}
 		return false;
