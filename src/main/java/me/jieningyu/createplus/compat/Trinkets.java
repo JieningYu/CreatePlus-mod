@@ -14,7 +14,7 @@ import org.quiltmc.loader.api.QuiltLoader;
 
 
 public class Trinkets {
-	public static Item GOGGLES = new Item(new Item.Settings().group(CreatePlus.ITEM_GROUP));
+	public static Item GOGGLES = new Item(new Item.Settings().maxCount(1).group(CreatePlus.ITEM_GROUP));
 	//using create api
 	static{GogglesItem.addIsWearingPredicate(player -> isTrinketEquipped(GOGGLES, player));}
 
