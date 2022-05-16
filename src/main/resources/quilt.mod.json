@@ -3,7 +3,7 @@
 	"quilt_loader": {
 		"group": "me.jieningyu",
 		"id": "createplus",
-		"version": "0.1.0",
+		"version": "1.0",
 		"metadata": {
 			"name": "CreatePlus",
 			"description": "Base compatibility enchantments for Create Fabric.",
