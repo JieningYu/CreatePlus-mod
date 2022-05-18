@@ -68,7 +68,7 @@ dependencies {
 	modImplementation libs.quilted.fabric.api
 
 	modImplementation "dev.emi:trinkets:3.3.0"
-	modImplementation("com.simibubi:Create:mc1.18.2_v0.4.1+554")
+	modImplementation("com.simibubi:Create:mc1.18.2_v0.4.1+569")
 }
 
 processResources {
