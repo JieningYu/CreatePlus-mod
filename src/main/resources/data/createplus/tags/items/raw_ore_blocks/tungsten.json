@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "indrev:raw_tungsten_block",
+            "required": false
+        }
+    ]
+}

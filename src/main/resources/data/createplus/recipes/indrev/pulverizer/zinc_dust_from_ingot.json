@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "tag": "c:ingots/zinc"
+  },
+  "output": {
+    "item": "createplus:zinc_dust",
+    "count": 1
+  },
+  "processTime": 150
+}

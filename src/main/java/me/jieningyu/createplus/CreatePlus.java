@@ -12,11 +12,12 @@ import net.minecraft.util.Identifier;
 import org.quiltmc.qsl.resource.loader.api.ResourceLoader;
 import org.quiltmc.qsl.resource.loader.api.ResourcePackActivationType;
 import org.quiltmc.qsl.item.group.api.QuiltItemGroup;
-
 import org.quiltmc.loader.api.QuiltLoader;
+
 import me.jieningyu.createplus.compat.MythicMetals;
 import me.jieningyu.createplus.compat.Trinkets;
 import me.jieningyu.createplus.compat.MIndustrialization;
+import me.jieningyu.createplus.compat.Indrev;
 public class CreatePlus implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("CreatePlus");
 	public static final String NAMESPACE = "createplus";
@@ -31,6 +32,7 @@ public class CreatePlus implements ModInitializer {
 		StrayLootTweak.init();
 
 		if (QuiltLoader.isModLoaded("mythicmetals")) {MythicMetals.register();}
+		if (QuiltLoader.isModLoaded("indrev")) {Indrev.register();}
 		if (QuiltLoader.isModLoaded("modern_industrialization")) {MIndustrialization.register();}
 		if (QuiltLoader.isModLoaded("trinkets")) {Trinkets.init();}
 	}

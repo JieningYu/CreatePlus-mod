@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+		}
+  ],
+  "type": "indrev:fluid_infuse",
+  "ingredients": [
+    {
+      "tag": "c:ores/zinc"
+    }
+  ],
+  "fluidInput": {
+    "fluid": "indrev:sulfuric_acid_still",
+    "amount": 81000
+  },
+  "fluidOutput": {
+    "fluid": "indrev:toxic_mud_still",
+    "amount": 1000
+  },
+  "output": {
+    "item": "createplus:zinc_purified_ore",
+    "count": 1
+  },
+  "processTime": 600
+}
