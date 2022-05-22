@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "exstellae"
+      ]
+		}
+  ],
+  "type": "exstellae:sieve",
+  "input": {
+    "item": "create:scoria"
+  },
+  "lootTable": "createplus:exstellae/sieve_loot",
+  "outputItem": "exstellae:flint_piece",
+  "outputAmount": "2"
+}

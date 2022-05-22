@@ -33,5 +33,8 @@
 
   "item.createplus.zinc_purified_ore": "Purified Zinc Ore",
 
+  "item.createplus.zinc_ore_chunk": "Zinc Ore Chunk",
+  "item.createplus.zinc_ore_piece": "Zinc Ore Piece",
+
   "item.createplus.goggles": "Engineer's Floating Goggles"
 }

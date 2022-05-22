@@ -33,5 +33,8 @@
 
   "item.createplus.zinc_purified_ore": "精炼锌矿石",
 
+  "item.createplus.zinc_ore_chunk": "锌矿石碎块",
+  "item.createplus.zinc_ore_piece": "锌矿石碎片",
+
   "item.createplus.goggles": "工程师悬浮镜"
 }

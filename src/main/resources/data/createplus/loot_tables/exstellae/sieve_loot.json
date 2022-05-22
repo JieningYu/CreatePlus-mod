@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "createplus:zinc_ore_piece"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:powdered_obsidian"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "createplus:zinc_ore_piece"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:powdered_obsidian"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "createplus:zinc_ore_piece"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:powdered_obsidian"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "createplus:zinc_ore_piece"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:powdered_obsidian"
+        }
+      ]
+    }
+  ]
+}
