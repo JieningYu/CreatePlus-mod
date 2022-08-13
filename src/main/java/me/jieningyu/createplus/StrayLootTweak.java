@@ -18,7 +18,7 @@ public class StrayLootTweak {
 				FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
 					.rolls(ConstantLootNumberProvider.create(1))
 					.with(ItemEntry.builder(CreatePlusItems.ZINC_DUST))
-					.conditionally(RandomChanceLootCondition.builder(0.11F));
+					.conditionally(RandomChanceLootCondition.builder(0.35F));
 				table.pool(poolBuilder);
 			}
 		});
